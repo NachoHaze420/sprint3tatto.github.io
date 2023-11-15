@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@font-face {
+    font-family: reydex;
+    src: url(../fuentes/Artesano.ttf.ttf);
+}
+
+@font-face {
+    font-family: grafitti;
+    src: url(../fuentes/grafitti.tft.otf);
+}
+
+@font-face {
+    font-family: grafitti6;
+    src: url(../fuentes/grafitti6.ttf.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #101A26;
+    font-family: 'Roboto', sans-serif;
+
+}
+header {
+    height: 10vh;
+}
+
+main {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    
+    
+}
+
+
+.box{
+    height: 400px;
+    width: 100%;
+    max-width: 350px;
+    background: rgba(24, 16, 16, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(15px);
+    z-index: 1000;
+    
+
+}
+
+.box h1{ 
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+.box-1{
+    position: relative;
+    display: flex;
+    padding: 15px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;;
+    margin: 40px 0;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+.box .box-1:hover{
+    background: #F2F2F0;
+    box-shadow: rgba(255, 255, 255, 0.5);
+    transform: scale(1.15) translateX(20px) translateY(-10px);
+    z-index: 1000;  
+}
+
+.box-1  h2 {
+    padding-left: 20px ;
+    text-align: center;
+}
+
+#agustinAlacano {
+    text-decoration: none;
+    color: white;
+}
+
+#agustinAlacano:hover {
+    font-family: 'reydex';
+    color: #0866ff;
+    font-size: 30px;
+    text-shadow: 2px 2px  black;
+
+}
+
+
+
+/**/
+
+
+
+
+
+
+
+
+
+/**/
+
+.box-3{
+    position: relative;
+    display: flex;
+    padding: 15px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;;
+    margin: 40px 0;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+.box .box-3:hover{
+    background: #F2F2F0;
+    box-shadow: rgba(255, 255, 255, 0.5);
+    transform: scale(1.15) translateX(20px) translateY(-10px);
+    z-index: 1000;  
+}
+
+.box-3  h2 {
+    padding-left: 20px ;
+    text-align: center;
+}
+
+#matyLamouroux {
+    text-decoration: none;
+    color: #fff;
+}
+
+#matyLamouroux:hover {
+    font-family: 'Lobster', sans-serif;
+    color: #FFFF00;
+    font-size: 38px;
+    text-shadow: 4px 4px 5px black;
+    
+}
+
+
+
+
+
+/**/
+
+.imagen1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagen1 img {
+    
+    width: 100%;
+    max-width: 250px;
+}
+
+.imagen1 h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+/**---------foooter**/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    
+}
+
+.links a{
+    font-size: 30px;
+    color: white;
+    margin: 25px 35px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.6);
+    
+}
+
+
+
+.links:hover .fa-facebook{
+    color: #0866ff;
+}
+
+
+.links:hover .fa-instagram {
+    color: #e4405f;
+}
+
+.links:hover .fa-whatsapp {
+    color: #04BF45;
+
+}
+
+
+
+
+
+
+
+
+
+

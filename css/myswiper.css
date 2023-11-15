@@ -1,0 +1,45 @@
+.swiper {
+    width: 100%;
+    max-width: 1250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 300px;
+    border-radius: 20px;
+  }
+  
+  .swiper-pagination{
+    display: none;
+  }
+
+  
+  
+  @media only screen and (max-width: 1024px){
+  
+    .swiper {
+      margin-bottom: 150px;
+      padding-top: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 200px;
+      height: 100%;
+  
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+  }

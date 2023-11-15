@@ -1,0 +1,97 @@
+@font-face {
+    font-family: reydex;
+    src: url(../fuentes/Artesano.ttf.ttf);
+}
+
+
+#sobremi {
+    display: flex;
+    height: 100vh;
+    background-color: #ccc;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/coco/sobre\ mi\ coco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+
+.box-sobremi {
+    
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(24, 16, 16, 0.1);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);   
+    border-radius: 15px;
+    margin-top: 50px;
+    
+    
+}
+
+.box-sobremi h2 {
+    text-align: center;
+    font-family: reydex;
+    font-size: 100px;
+    color: var(--coco);
+    padding-bottom: 30px;
+    text-shadow:  8px 8px black;
+}
+
+.box-sobremi p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: white;
+    text-align: left;
+    padding: 20px 50px;
+    font-weight: 300;
+}
+
+
+.box-sobremi h4 {
+    font-family: reydex;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 30px;
+    color: black;
+    font-weight: 100;
+    text-shadow:  1px 1px 10px var(--coco);
+
+}
+
+
+@media screen and (max-width:1000px) {
+    #sobremi {
+        height: 100%;
+        
+    }
+
+    .box-sobremi {
+        width: 90%;
+        height: 70%;
+        margin-bottom: 20px;
+    }
+
+    .box-sobremi h4 {
+        font-size: 15px;
+    }
+
+    .box-sobremi h2 {
+        font-size: 60px;
+        text-shadow:  2px 2px black;
+    } 
+
+    .box-sobremi p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .box-sobremi h2 {
+        font-size: 50px;
+        text-shadow:  2px 2px black;
+    } 
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+@font-face {
+    font-family: reydex;
+    src: url(../fuentes/Artesano.ttf.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lobster', sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+    
+     
+}
+
+/*generales*/
+
+.flex{
+    display: flex!important;
+}
+
+/*Colores*/
+
+:root {
+    --coco: #0583F2;
+    --maty: #FFFF00;
+  }
+  
+/*fin general*/
+
+
+
+/*---------Header--------*/
+
+
+
+/*Main*/
+
+main {
+    overflow: hidden;
+}
+
+
+@media screen and (max-width:1000px) {
+
+
+
+
+}

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+@font-face {
+    font-family: grafitti6;
+    src: url(../fuentes/grafitti6.ttf.ttf);
+}
+
+footer {
+    display: flex;
+    background-color: #201F26;
+    height: 30vh;
+}
+
+.box-logo-footer {
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box-logo-footer h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    font-weight: 600;
+    
+    
+}
+
+
+
+.box-logo-footer img {
+    padding: 10px 32%;
+    height: 200px;
+}
+
+.box-logo-footer a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.box-tatuadores-footer {
+    height: 100%;
+    width: 40%;    
+}
+
+.box-maty {
+    text-align: center;
+    margin-top: 80px;
+    
+  
+}
+
+.box-maty a {
+    text-decoration: none;
+    font-family: 'Lobster', sans-serif;
+    color: #FFFF00;
+    font-size: 60px;
+    text-shadow: 4px 4px 5px black;
+    cursor: pointer;
+}
+
+
+.box-redes-footer {
+    height: 100%;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    
+}
+
+
+.links {
+    font-size: 50px;
+    padding: 30px;
+    
+    
+}
+
+.links a {
+    color: white;
+    font-size: 40px;
+}
+
+
+
+.links:hover .fa-facebook{
+    color: #0866ff;
+}
+
+
+.links:hover .fa-instagram {
+    color: #e4405f;
+}
+
+.links:hover .fa-whatsapp {
+    color: #04BF45;
+
+}
+
+
+.maty footer {
+    background-color: black;
+}
+
+.maty .box-logo-footer h2 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.maty .box-tatuadores-footer h2 a{
+    font-family: reydex;
+    color: #0866ff;
+}
+
+@media screen and (max-width:1000px) {
+    footer {
+        flex-direction: column;
+        height: 100%;  
+        justify-content: center;
+        align-items: center;      
+    }
+
+    .box-logo-footer {  
+        
+        width: 100%;
+    }
+
+   
+   
+
+    .box-tatuadores-footer {
+        width: 100%;
+    }
+
+
+
+    .box-maty a {
+        font-size: 40px;
+    }
+
+    .box-redes-footer {
+        width: 100%;
+        
+    }
+
+    .box-redes-footer a {
+        font-size: 35px;
+    }
+
+    .box-logo-footer img {
+        height: 140px;
+        padding: 10px 30%;
+    }
+
+    .box-logo-footer h2 {
+        font-size: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width:400px) {
+    .box-redes-footer a {
+        font-size: 25px;
+    }
+}

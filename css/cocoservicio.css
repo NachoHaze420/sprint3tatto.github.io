@@ -1,0 +1,53 @@
+@font-face {
+    font-family: reydex;
+    src: url(../fuentes/Artesano.ttf.ttf);
+}
+
+#servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../imagenes/Principal\ coco\ 4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.box-servicio {
+    text-align: center;
+
+}
+
+.box-servicio h2 {
+    font-family: 'reydex';
+    font-size: 100px;
+    color: var(--coco);
+    margin-top: 60px;
+    text-shadow:  8px 8px black;
+}
+
+
+
+
+.box-servicio p {
+    font-family: 'reydex';
+    color: #201F26;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1000px) {
+
+    .box-servicio h2  {
+        font-size: 40px;
+        margin-top: 10px;
+        text-shadow:  2px 2px black;
+        
+    }
+
+    .box-servicio p {
+        font-size: 18px;
+    }
+
+}

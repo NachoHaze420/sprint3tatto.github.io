@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@font-face {
+    font-family: reydex;
+    src: url(../fuentes/Artesano.ttf.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    width: 100%;
+}
+
+
+#principal {
+    display: flex;
+    height: 100vh;
+    background-image: url(../imagenes/Principal\ coco\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-coco {
+    background: rgba(24, 16, 16, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    height: 70%;
+    width: 70%; 
+    text-align: center;  
+    border-radius: 0 0 0 45px;
+    
+}
+
+.box-coco h1 {
+    font-family: 'reydex';
+    font-size: 120px;  
+    color: var(--coco);
+    font-weight: 200;
+    margin-top: 20px;
+    text-shadow:  8px 8px black;
+}
+
+.box-coco h2 {
+    font-family: 'reydex';
+    color: white;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.box-btn {
+    display: flex;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-coco {
+    display: flex;
+    height: auto;
+    background-color: transparent;
+    font-weight: semibold;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #eee;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    color: var(--coco);
+    font-family: 'reydex';
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+    
+
+}
+
+.btn-coco:hover {
+    box-shadow: .5rem .5rem 1rem var(--coco), -5rem -.5rem #ccc;
+
+}
+
+.btn-coco:active {
+    box-shadow: inset .2rem .2rem 1rem var(--coco), -2rem -.2rem #ccc;
+}
+
+
+
+
+/*wsp*/
+
+.btn-wsp {
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: var(--coco);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 55px;
+    box-shadow: 0px 5px 8px rgba( 0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover {
+    text-decoration: none;
+    color:  var(--coco);
+    background-color: #fff;
+}
+
+.fa-whatsapp {
+    padding: 9px 13px;
+}
+
+
+
+
+
+@media screen and (max-width:1000px) {
+
+    #principal {
+        height: 80vh;
+        
+    }
+
+    .box-coco h1 {
+        font-size: 100px;
+        text-shadow:  5px 5px black;
+    }
+
+    .box-coco h2 {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+
+    .box-coco {
+        width: 90%;
+        height: 80%;
+        
+    }
+
+    .btn-coco {
+        font-size: 20px;
+        box-shadow: 0 0 10px var(--coco), 0 0 10px var(--coco), 0 0 10px var(--coco);
+        
+    }
+
+    .btn-wsp {
+        display: none;
+    }
+
+    
+
+}
+
+@media screen and (max-width:516px) {
+    .box-coco h1 {
+        font-size: 60px;
+        
+    }
+
+    .btn-coco {
+        font-size: 17px;
+    }
+}

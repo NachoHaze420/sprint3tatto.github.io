@@ -1,0 +1,84 @@
+#servicios{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Serviciosbox {
+    width: 100%;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    
+}
+
+.Serviciosbox h2 {
+    color: var(--maty);
+    font-size: 80px;
+}
+
+
+
+.trabajos {
+    padding: 50px 0 50px 0;
+}
+
+.trabajos h3{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    
+}
+
+
+.coco .Serviciosbox h2 {
+    color: var(--coco);
+
+}
+
+
+.coco #servicios {
+    background-image: url(../imagenes/Principal\ coco\ 4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.coco .Serviciosbox h2 {
+    font-family: reydex;
+    text-shadow: 5px 5px black;
+    margin-bottom: -20px;
+}
+
+.coco .trabajos h3 {
+    font-family: reydex;
+    color: rgba(0, 0, 0, 0.411);
+    font-size: 40px;
+    
+}
+
+@media screen and (max-width:1000px) {
+    .coco .Serviciosbox h2 {
+        font-size: 50px;
+    }
+
+    .coco .trabajos h3 {
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .coco .Serviciosbox h2 {
+        font-size: 40px;
+    }
+
+    .coco .trabajos h3 {
+        font-size: 20px;
+    }
+
+}

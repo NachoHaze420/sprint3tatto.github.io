@@ -1,0 +1,142 @@
+#contacto {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: #201F26;
+}
+
+form {
+    padding: 20px 25px;
+    box-shadow: 0 0 20px var(--coco);
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    
+}
+
+.formucontacto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.titlecontacto {
+    font-family: 'reydex';
+    font-size: 55px;
+    color: var(--coco);
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-shadow:  2px  2px #89c8ff;
+    padding-top: 10px;
+   
+}
+
+.formulario label {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.botonenviar{
+    width: 100%;
+}
+
+.formulario input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 2px solid;
+    color: black;
+    outline: none;
+    font-weight: 700;
+}
+
+.formulario input::placeholder, textarea::placeholder {
+    color: black;
+}
+
+.formulario .form_txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.formulario .form_txt a {
+    color: var(--coco);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.formulario .botonenviar {
+    font-size: 16px;
+    color: black;
+    border: 0;
+    border-radius: 25px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.formulario .botonenviar:hover {
+    background-color: var(--coco);
+    color: black;  
+}
+
+
+@media screen and (max-width:1000px) {
+     form {
+        padding: 0 25px;
+        width: 80%;
+     }
+
+     .titlecontacto {
+        font-size: 40px;
+        
+     }
+
+     .formulario input, textarea {
+        padding: 8px 15px;
+        
+     }
+
+     .formulario .form_txt a {
+        font-size: 15px;
+     }
+
+ 
+
+
+}
+
+@media screen and (max-width:500px) {
+    .titlecontacto {
+        font-size: 30px;
+        
+     }
+
+     .formulario input, textarea {
+        padding: 5px 12px;
+        font-size: 12px;
+        
+     }
+
+     .formulario .form_txt a {
+        font-size: 12px;
+     }
+
+    
+}

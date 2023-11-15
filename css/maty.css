@@ -1,0 +1,547 @@
+
+
+.principal {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagenes/tatuaje.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    height: 100vh;
+    
+    
+    
+
+}
+
+.titulobox {
+    height: 100%;
+    width: 60%;  
+
+    
+}
+
+.titulobox h1 {
+    font-size: 140px;
+    text-align: left; 
+    color: var(--maty);
+    margin-top: 250px;
+    text-align: center;
+}
+
+.titulobox h2 {
+    font-size: 60px;
+    text-align: left;
+    color: #fff;
+    text-align: center;
+    
+}
+
+
+
+.btn-neon-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.btn-neon:hover{
+    background: var(--maty);
+    box-shadow: 0 0 10px var(--maty), 0 0 40px var(--maty), 0 0 80px var(--maty);
+    transition-delay: 1s;
+    color: black;
+}
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+
+#span1 {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--maty));
+}
+
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+
+#span3 {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, var(--maty));
+}
+
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+
+#span2 {
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, var(--maty));
+}
+
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4 {
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, var(--maty));
+}
+
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+/*----------Sobre mi------------*/
+
+#sobre-mi {
+    display: flex;
+     
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.box-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 50%;
+   
+
+}
+
+.box-img img {
+    height: 700px;
+   
+}
+
+.box-mi {
+    height: 80%;
+    width: 100%;
+}
+
+
+.box-mi h2 {
+    
+    font-size: 80px;
+    color: var(--maty);
+}
+
+.box-mi h3 {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10px;
+
+}
+
+.box-mi p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------contacto*/
+
+#contacto {
+   
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+form {
+    padding: 20px 25px;
+    box-shadow: 0 0 20px var(--maty);
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 200px;
+    margin-top: 20px;
+    
+}
+
+.formucontacto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titlecontacto {
+    font-size: 55px;
+    color: var(--maty);
+    font-weight: 500;
+    margin-bottom: 30px;
+   
+}
+
+.formulario label {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.botonenviar{
+    width: 100%;
+}
+
+.formulario input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 2px solid;
+    color: black;
+    outline: none;
+    font-weight: 700;
+}
+
+.formulario input::placeholder, textarea::placeholder {
+    color: black;
+}
+
+.formulario .form_txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.formulario .form_txt a {
+    color: var(--maty);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.formulario .botonenviar {
+    font-size: 16px;
+    color: black;
+    border: 0;
+    border-radius: 25px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.formulario .botonenviar:hover {
+    background-color: var(--maty);
+    color: black;  
+}
+
+
+
+/*footer*/
+
+@font-face {
+    font-family: grafitti6;
+    src: url(../fuentes/grafitti6.ttf.ttf);
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    
+}
+
+.box-logo-footer {
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-logo-footer h2 {
+    text-align: center;
+    color: var(--maty);
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100;
+    
+}
+
+.box-logo-footer img {
+    padding: 10px 35%;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+.box-tatuadores-footer {
+    height: 100%;
+    width: 40%;  
+    
+    
+}
+
+.box-coco {
+    text-align: center;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.box-coco a {
+    text-decoration: none;
+    font-family: reydex;
+    color: #0866ff;
+    font-size: 50px;
+    
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-redes-footer {
+    height: 100%;
+    width: 30%;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+
+.links {
+    font-size: 50px;
+    padding: 40px;
+}
+
+.links a {
+    color: white;    
+    
+}
+
+.links:hover .fa-facebook{
+    color: #0866ff;
+}
+
+
+.links:hover .fa-instagram {
+    color: #e4405f;
+}
+
+.links:hover .fa-whatsapp {
+    color: #04BF45;
+
+}
+
+
+
+
+/*------wsp boton----*/
+
+.wsp {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: -90px;
+    z-index: 111;
+    translate: 2s;
+}
+
+
+.btn-wsp {
+    position: absolute;
+    color: var(--maty);
+    font-size: 50px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    justify-content: left;
+    z-index: 111;
+}
+
+.wsp img {
+    height: 190px;
+    width: 350px;
+    position: relative;
+    cursor: pointer;
+}
+
+.wsp:hover {
+    transform: translateY(-4px);
+}
+
+
+
+
+
+@media screen and (max-width:1000px) {
+
+    #principal {
+        margin-top: 0;
+
+    }
+
+    .titulobox {
+        background-image: url(../imagenes/maty\ tatuando\ 1.jpeg);
+        background-size: cover;
+    }
+
+    .titulo {
+        text-shadow: 4px 4px black;
+    }
+
+    .wsp {
+        display: none;
+    }
+
+    
+
+    #sobre-mi {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column-reverse; 
+        position: relative;
+        padding: 30px;
+    }
+
+    #sobre-mi h2 {
+        font-size: 60px;
+    }
+
+    #sobre-mi img {
+        display: none;
+    }
+
+    #sobre-mi .box-mi {
+        margin: 0;
+    }
+
+    .btn-neon-mi{
+        background: var(--maty);
+        box-shadow: 0 0 10px var(--maty), 0 0 40px var(--maty), 0 0 80px var(--maty);
+        transition-delay: 1s;
+        color: black;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        
+        background-image: none;
+    }
+
+    .titulobox {
+        
+        width: 100%;
+    }
+
+    .titulobox h1 {
+        font-size: 70px;
+    }
+
+    .titulobox h2 {
+        font-size: 50px;
+    }
+
+
+    .btn-neon{
+        background: var(--maty);
+        box-shadow: 0 0 10px var(--maty), 0 0 40px var(--maty), 0 0 80px var(--maty);
+        transition-delay: 1s;
+        color: black;
+        padding: 15px 10px;
+    }
+
+    form {
+        padding: 0 25px;
+        width: 80%;
+     }
+
+     .titlecontacto {
+        font-size: 40px;
+     }
+
+     .formulario input, textarea {
+        padding: 8px 15px;
+        
+     }
+
+     .formulario .form_txt a {
+        font-size: 12px;
+     }
+
+
+     
+
+    
+}
